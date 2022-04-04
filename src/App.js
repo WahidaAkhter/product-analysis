@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import React from "react";
+import "./App.css";
+import Navbar from "./Component/Navbar/Navbar";
+import Home from "./Component/Home/Home";
+import Reviews from "./pages/Reviews";
+import About from "./pages/About";
+import useLoad from "./hooks/customHook";
+import Dashboard from "./pages/Dashboard";
+
+export const ThemeContext = React.createContext([]);
 
 function App() {
+  const [review, setReview] = useLoad();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <ThemeContext.Provider value={review}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/review" element={<Reviews />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </ThemeContext.Provider>
+    </>
   );
 }
 
