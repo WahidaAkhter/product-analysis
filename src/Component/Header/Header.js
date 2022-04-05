@@ -23,7 +23,7 @@ const Header = () => {
       <Link className='ms-4 nav-color' to ='/home'>Home</Link>
       <Link className='ms-4 nav-color'to ='/reviews'>Reviews</Link>
       <Link className='ms-4 nav-color'to ="/dashboard">Dashboard</Link>
-      <Link className='ms-4 nav-color'to ="/blogs">Blogs</Link>
+      <Link className='ms-4 nav-color'to ="/blog">Blogs</Link>
       <Link className='ms-4 nav-color'to ="about">About</Link>
     </Nav>
       </Container>
