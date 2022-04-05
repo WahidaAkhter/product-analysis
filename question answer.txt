@@ -1,0 +1,7 @@
+1.what is context api?
+
+answer: context api in which way to we can create global variables that can be passed on the component tree.
+context api is primarily used when some data needs to be accessible.
+Actually context api is  a react structure.
+context api helps to exchange details and assist in solving prop-drilling.
+As an example of context api is authenticated user.

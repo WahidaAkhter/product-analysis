@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "name": "katrina",
+        "review": "this website is so far good and their service is awesome,everyone should try this,and as a traveller i am in love with it",
+        "rating": "4.7"
+    },
+    {
+        "id": "02",
+        "name": "Sadrika Sadaf",
+        "review": "going out alone sometime tiresome but with bike its never boring ,their service is too good",
+        "rating": "4.5"
+    },
+    {
+        "id": "03",
+        "name": "Beeloom haja",
+        "review": "i will recommend everyone to try this website its vey easy and try their service super fast and so friendly",
+        "rating": "2.9"
+    },
+    {
+        "id": "04",
+        "name": "Beelos trina",
+        "review": "i am a traveller but i dont have bike ,so couldnt travel anywhere with friends now their service is easy and friendly.Now i can go anywhere with friends ,thank you bike rental service to make my dream come true.",
+        "rating": "3.2"
+    },
+    {
+        "id": "05",
+        "name": "kitty kitty",
+        "review": "far from two years i am with them and using their services, i am glad to choose them,travelling is now super fast and super easy and more interesting. ",
+        "rating": "5.0"
+    },
+    {
+        "id": "06",
+        "name": "nazmul hasan bappi",
+        "review": "well i am very happy with their services and their behaviour they will recommend you best tips and riding with bike is now more interesting and more easy.",
+        "rating": "4.5"
+    }
+]

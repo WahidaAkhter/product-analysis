@@ -1,0 +1,19 @@
+.review-image{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+.card-section{
+    box-shadow: 5px 3px 20px 0px
+    
+    
+}
+.rating{
+    color:rgb(240, 11, 11);
+    font-weight: 600px;
+    font-size: larger;
+}
+.reviews{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(86, 100, 100);
+}
