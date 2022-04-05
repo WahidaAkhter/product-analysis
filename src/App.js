@@ -1,30 +1,28 @@
-import { Route, Routes } from "react-router-dom";
-import React from "react";
-import "./App.css";
-import Navbar from "./Component/Navbar/Navbar";
-import Home from "./Component/Home/Home";
-import Reviews from "./pages/Reviews";
-import About from "./pages/About";
-import useLoad from "./hooks/customHook";
-import Dashboard from "./pages/Dashboard";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import About from './Component/About/About';
+import Blogs from './Component/Blog/Blog';
+import Dashboard from './Component/Dashboard/Dashboard';
+import Header from './Component/Header/Header';
+import Home from './Component/Home/Home';
+import NotFound from './Component/NotFound/NotFound';
+import Reviews from './Component/Reviews/Reviews';
 
-export const ThemeContext = React.createContext([]);
-
-function App() {
-  const [review, setReview] = useLoad();
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <ThemeContext.Provider value={review}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/review" element={<Reviews />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      </ThemeContext.Provider>
-    </>
+    <div>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/reviews'element = {<Reviews></Reviews>}></Route>
+        <Route path='/dashboard' element = {<Dashboard></Dashboard>}></Route>
+        <Route path='/blog' element = {<Blogs></Blogs>}></Route>
+        <Route path='/about' element = {<About></About>}></Route>
+        <Route path='*' element = {<NotFound></NotFound>}></Route>
+      </Routes>
+    </div>
   );
-}
+};
 
 export default App;
