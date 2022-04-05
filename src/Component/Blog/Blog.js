@@ -22,6 +22,7 @@ As an example of context api is authenticated user.</p>
     Another thing is div and span are not semantic tags because they dont describe its work,they are called
     non-semantic tag.
     Again table,article are semantic tag bacause they describe its content.
+    semantic tags are very important tags.
 
 </p>
 
