@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useReview from '../../Hook/useReview';
-import image from '../../images/banner_car.png';
+import image from '../../images/banner_bike.png';
 import Review from '../Review/Review';
 import './Home.css'
 
@@ -44,7 +44,7 @@ const Home = () => {
 
         </div>
         <Link to="/reviews">
-          <button className='btn-color1 my-3'>See All Review</button>
+          <button className='btn-color1 my-3'>See All Review...</button>
         </Link>
       </div>
     </div>

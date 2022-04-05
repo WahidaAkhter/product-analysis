@@ -11,9 +11,9 @@ const About = () => {
           </div>
           <div class="col about">
             <h4>About Our Service</h4>
-            <h1>Start your jouney and explore natures beauty with our service.</h1>
+            <h1>Start your jouney and explore natures beauty with our service..</h1>
             <p> One of the best ways to spend sunny summer day to go bike riding ,but what to do if 
-              you dont have your own bike here we are here to make your dream come true.</p>
+              you dont have your own bike here we are here to make your dream come true..</p>
           </div>
 
         </div>
